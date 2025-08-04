@@ -24,3 +24,48 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.nav-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px;
+}
+
+.nav-menu li{
+  font-size: large;
+  margin-right: 30px;
+}
+
+#intro-area{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* .portrait-area{
+  border-radius: 70%;
+} */
+
+.name-area{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.name{
+  font-size: 3rem;
+}
+
+.motto{
+  font-size: 2rem;
+}
+
+
+.portrait{
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
