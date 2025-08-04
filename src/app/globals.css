@@ -43,10 +43,6 @@ body {
   justify-content: center;
 }
 
-/* .portrait-area{
-  border-radius: 70%;
-} */
-
 .name-area{
   display: flex;
   flex-direction: column;
