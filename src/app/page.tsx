@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (
@@ -9,12 +10,13 @@ export default function Home() {
           <h5 className="motto">Code that clicks. Design that sticks.</h5>
         </div>
         <div className="portrait-area">
-          <Image className="portrait" src="/self-portrait.jpg" alt="self-portrait" width={300} height={300} />
+          <Image className="portrait" src="/self-portrait.jpg" alt="self portrait" width={300} height={300} />
         </div>
       </div>
-      <div>
-        <p></p>
+      <div className="transistion-area">
+        <Image className="transistion-img" src="/phone-hello.png" alt="transistion image" width={550} height={550} />
       </div>
+      <Projects title="Div Ann" description="A dividend calc app" />
     </>
   );
 }
