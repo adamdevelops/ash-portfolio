@@ -11,10 +11,10 @@ export default function Projects({title, description}: {title: string, descripti
   return (
     <div id="recent-work" className="container mx-auto">
         <div>
-            <h2 className="mb-5 text-3xl font-bold">Recent Work</h2>
-            <HighlightArea title={example_data.title} description={example_data.description} />
-            <HighlightArea title={example_data.title} description={example_data.description} />
-            <HighlightArea title={example_data.title} description={example_data.description} />
+            <h2 className="mb-5 ml-15 text-3xl font-bold">Recent Work</h2>
+            <HighlightArea projArea={true} title={example_data.title} description={example_data.description} />
+            <HighlightArea projArea={true} title={example_data.title} description={example_data.description} />
+            <HighlightArea projArea={true} title={example_data.title} description={example_data.description} />
         </div>
     </div>
   )

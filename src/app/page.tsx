@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Projects from "./components/projects";
+import WorkExp from "./components/workexp";
 
 export default function Home() {
   return (
     <>
-      <div id="intro-area" className="">
+      <div id="intro-area" className="container mx-auto">
         <div className="name-area">
           <h3 className="name">Adam Hussain</h3>
           <h5 className="motto">Code that clicks. Design that sticks.</h5>
@@ -17,6 +18,7 @@ export default function Home() {
         <Image className="transistion-img" src="/phone-hello.png" alt="transistion image" width={550} height={550} />
       </div>
       <Projects title="Div Ann" description="A dividend calc app" />
+      <WorkExp title="Div Ann" description="A dividend calc app" />
     </>
   );
 }
